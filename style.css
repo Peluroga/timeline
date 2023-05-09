@@ -1,0 +1,62 @@
+*{
+    font-family: 'Open Sans';
+    margin: 0px;
+
+}
+body{
+background-color: rgb(74, 68, 151);
+
+}
+#titulo{
+ text-align: center;  
+ margin: 20px 0 20px 0 ;   
+ color: #fff; 
+text-shadow:  2px 2px #000;
+
+}
+.comentario{
+  background-color: #fff;  
+  width: 800px;
+  margin: 10px auto;
+  border: 2px #000 solid;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.avatar{
+  border-radius: 50%;
+  border: 1px solid #555
+} 
+.comentario h2{
+  margin-bottom: 15px; 
+  color: rgb(123, 14, 196);   
+
+}
+.comentario p{
+  margin-bottom: 10px;
+
+}
+#formulario{
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px #000 solid;
+    
+}
+#formulario label{   
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+#formulario textarea{
+    width: 100%;
+    border: #cbcbcb 2px solid;
+    border-radius: 15px;
+
+}
