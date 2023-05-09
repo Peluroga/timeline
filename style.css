@@ -57,6 +57,27 @@ text-shadow:  2px 2px #000;
 #formulario textarea{
     width: 100%;
     border: #cbcbcb 2px solid;
-    border-radius: 15px;
+
+}
+.btn{
+    background-color: #333;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 500ms;
+
+}
+.btn:hover{
+    background: #555;
+
+}
+.caixa-botão{
+    display: flex;
+    justify-content: flex-end;
 
 }
